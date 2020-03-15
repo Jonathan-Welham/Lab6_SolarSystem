@@ -5,7 +5,7 @@ app.use(express.static("css"));
 app.use(express.static("public"));
 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, function(){
   console.log("Server is up and running");
 });
 
